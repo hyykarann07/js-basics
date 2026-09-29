@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JS DOM Basics</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 500px; margin: 40px auto; padding: 0 16px; }
+    button { padding: 8px 14px; margin: 4px 0; cursor: pointer; }
+    .highlight { background: yellow; }
+    li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <!--
+    DOM = Document Object Model.
+    It is how JavaScript sees and changes your web page.
+    Open this file in your browser and click the buttons!
+  -->
+
+  <h1 id="title">Hello DOM</h1>
+  <button id="changeText">Change text</button>
+  <button id="toggleColor">Toggle highlight</button>
+
+  <hr />
+  <h3>Counter: <span id="count">0</span></h3>
+  <button id="plus">+</button>
+  <button id="minus">-</button>
+
+  <hr />
+  <h3>To-do list</h3>
+  <input id="taskInput" placeholder="Enter a task" />
+  <button id="addTask">Add</button>
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
