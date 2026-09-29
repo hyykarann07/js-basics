@@ -71,8 +71,4 @@ Paste the code into https://jsfiddle.net or https://codepen.io
 
 ## 🤝 Contributing
 
-Found a typo or want to add an example? Open an issue or send a pull request. All beginners' improvements are welcome!
-
-## 📄 License
-
-MIT — free to use and share.
+Found a typo or want to add an example? Open an issue or send a pull request. All beginners' improvements are welcome
